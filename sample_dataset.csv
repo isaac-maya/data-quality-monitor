@@ -1,0 +1,26 @@
+record_id,customer_id,transaction_date,region,product_line,order_amount,status,source_system,last_updated
+1001,C-001,2026-04-01,North,Managed Services,1240.50,completed,crm,2026-04-01T14:20:00Z
+1002,C-002,2026-04-01,West,Cloud Migration,5820.00,completed,erp,2026-04-01T15:05:00Z
+1003,C-003,2026-04-02,South,Data Quality,740.00,pending,crm,2026-04-02T09:15:00Z
+1004,C-004,2026-04-02,East,Managed Services,0.00,completed,erp,2026-04-02T11:40:00Z
+1005,C-005,2026-04-03,West,Analytics Support,915.25,completed,crm,2026-04-03T10:10:00Z
+1006,C-006,2026-04-03,North,Cloud Migration,2210.75,completed,crm,2026-04-03T12:00:00Z
+1007,C-007,2026-04-04,South,Data Quality,1380.00,cancelled,erp,2026-04-04T08:45:00Z
+1008,C-008,2026-04-04,East,Managed Services,1195.00,completed,crm,2026-04-04T13:10:00Z
+1009,C-009,2026-04-05,North,Analytics Support,100000.00,completed,erp,2026-04-05T16:30:00Z
+1010,C-010,2026-04-05,West,Cloud Migration,3475.00,completed,crm,2026-04-05T17:20:00Z
+1011,C-011,2026-04-06,South,Data Quality,-45.00,completed,crm,2026-04-06T09:00:00Z
+1012,C-012,2026-04-06,East,Managed Services,1320.00,completed,erp,2026-04-06T10:25:00Z
+1013,C-013,2026-04-07,North,Analytics Support,875.00,failed,crm,2026-04-07T12:45:00Z
+1014,C-014,2026-04-07,West,Cloud Migration,4125.00,completed,erp,2026-04-07T14:10:00Z
+1015,C-015,2026-04-08,South,Data Quality,965.00,completed,crm,2026-04-08T10:30:00Z
+1016,C-016,2026-04-08,East,Managed Services,1495.00,completed,crm,2026-04-08T11:15:00Z
+1017,C-017,2026-04-09,North,Analytics Support,905.00,completed,erp,2026-04-09T13:00:00Z
+1018,C-018,2026-04-09,West,Cloud Migration,4550.00,completed,crm,2026-04-09T14:35:00Z
+1019,,2026-04-10,South,Data Quality,1020.00,completed,crm,2026-04-10T09:50:00Z
+1020,C-020,2026-04-10,East,Managed Services,1410.00,completed,legacy,2026-04-10T10:05:00Z
+1021,C-021,2026-04-11,North,Analytics Support,890.00,completed,crm,2026-04-11T12:15:00Z
+1022,C-022,2026-04-11,West,Cloud Migration,4320.00,completed,erp,2026-04-11T13:25:00Z
+1023,C-023,2026-04-12,South,Data Quality,980.00,completed,crm,2026-04-12T10:10:00Z
+1024,C-024,2026-05-25,East,Managed Services,1365.00,completed,crm,2026-04-12T11:20:00Z
+1024,C-024,2026-04-12,East,Managed Services,1365.00,completed,crm,2026-04-12T11:22:00Z
