@@ -1,15 +1,26 @@
-# Data Quality / Analytics Kit
+# Data Quality Monitor
+
+🌐 **Live demo:** _coming soon — deploys to Hugging Face Spaces in Wave 2 rollout_
 
 This compact artifact shows how I approach trustworthy analytics pipelines: define clear checks, surface anomalies, and translate findings into business-readable action.
 
 ## Contents
 
+- `app.py`: Streamlit app — drag-drop any CSV, get a six-dimension data quality verdict in 3 seconds.
+- `data_quality_checks.py`: local checker with six rules (Completeness, Uniqueness, Validity, Anomaly, Lineage, Timeliness).
 - `sample_dataset.csv`: synthetic operational records with realistic defects.
-- `data_quality_checks.py`: local checker with six rules.
-- `quality_report.md`: generated stakeholder report.
+- `quality_report.md`: generated stakeholder report from the CLI runner.
+- `requirements.txt`: Streamlit + pandas + plotly.
 
 ## Run
 
+**Interactive (Streamlit):**
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+**CLI report:**
 ```bash
 python3 data_quality_checks.py
 ```
